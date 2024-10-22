@@ -1,0 +1,29 @@
+.likeIcon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.liked {
+  color: red;
+}
+
+.likeCount {
+  margin-left: 8px;
+}
+
+.likeIcon {
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  transition: box-shadow 0.3s ease;
+}
+
+.likeIcon:hover {
+  box-shadow: 0 0 20px rgba(237, 36, 36, 0.6);
+  background: 0 0 20px rgba(237, 36, 36, 0.6);
+}
+
+.liked:hover {
+  background: 0 0 20px rgba(237, 36, 36, 0.6);
+}
